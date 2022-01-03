@@ -1,0 +1,30 @@
+{
+    "name": "tardigrades/metaweb",
+    "description": "Integrates metamask for one click login to the website",
+    "type": "craft-plugin",
+    "keywords": [ "web3", "metamask", "login", "blockchain", "ethereum", "craftcms" ],
+    "licence": "MIT",
+    "authors": [
+        {
+            "name": "Tardigrades",
+            "homepage": "https://tardigrades.io"
+        }
+    ],
+    "support": {
+        "email": "hallo@dionsnoeijen.nl"
+    },
+    "require": {
+        "craftcms/cms": "^3",
+        "php": "^7.2 || ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tardigrades\\Metaweb\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Metaweb",
+        "handle": "metaweb",
+        "class": "Tardigrades\\Metaweb\\Metaweb"
+    }
+}

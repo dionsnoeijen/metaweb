@@ -1,0 +1,17 @@
+/.env
+/.idea
+/.vsCode
+/vendor
+/node_modules
+/dist
+/importdata
+.DS_Store
+.phpunit.result.cache
+/.env.*
+/test/_output
+/test/_craft/storage
+test/_craft/config/project/*
+mails
+-git.sh
+package-lock.json
+yarn.lock

@@ -1,0 +1,1 @@
+(()=>{"use strict";class e{constructor(){this.elements={}}}var t;t=()=>{new e},"complete"===document.readyState||"loading"!==document.readyState&&!document.documentElement.doScroll?t():document.addEventListener("DOMContentLoaded",t)})();
