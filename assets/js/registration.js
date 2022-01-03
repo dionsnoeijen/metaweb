@@ -1,6 +1,6 @@
 import { documentReady } from "./Shared/documentReady";
-import Registration from "./Registration/registration";
+import MetamaskOnboarding from "./MetamaskOnboarding/MetamaskOnboarding";
 
 documentReady(() => {
-    new Registration();
+    new MetamaskOnboarding();
 });
